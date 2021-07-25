@@ -1,0 +1,2 @@
+# raspios-codeblocks
+This is arm based container with installed codeblocks IDE. You can use this container for cross-compilation in emulated environment provided you have installed qemu-user in the host system. Please note, that you can also remotely debug your app. Please create a project from user template &lt;next> and consult the script that is run before start of the debugger. Produced binaries are for ARMv6 and should run without modification on any RasperryPi flavour including Pi 1 and Pi Zero.
